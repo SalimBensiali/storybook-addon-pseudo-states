@@ -47,6 +47,7 @@
     "chromatic": "npx chromatic",
     "build:dist": "tsup",
     "build:storybook": "storybook build",
+    "prepare": "yarn run prepublish",
     "prepublish": "yarn clean && yarn build:dist",
     "release": "auto shipit --base-branch=main"
   },
